@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-eval-metrics"
+version = "0.1.0"
+description = "Lightweight, dependency-free evaluation metrics for LLM outputs."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["llm", "evaluation", "metrics", "bleu", "rouge", "f1", "ai"]
+authors = [{ name = "<YOUR NAME>" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[tool.setuptools]
+packages = ["eval_metrics"]
